@@ -9,7 +9,7 @@ function Home() {
         <div className="max-w-6xl w-full text-gray-800">
           <div className="flex flex-col items-center justify-center py-4">
             <h2 className="text-4xl font-semibold text-red-900">
-              Bem-vindo à Pharma!
+              Bem-vindo à 75!
             </h2>
             <p className="text-lg text-gray-700">
               Encontre os melhores produtos para sua saúde.
