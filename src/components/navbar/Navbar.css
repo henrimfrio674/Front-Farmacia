@@ -1,0 +1,33 @@
+
+/* Estilo do menu */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 10px;
+}
+
+/* Estilo dos links no menu */
+.menu a {
+  position: relative;
+  text-decoration: none; /* Remove sublinhado padrão dos links */
+  color: #ffffff; /* Define a cor do texto dos links como branco */
+  font-weight: 500; /* Define o peso da fonte */
+}
+
+/* Estilo do pseudo-elemento :after dos links */
+.menu a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #111111; /* Cor da linha abaixo do link */
+  margin-top: 4px;
+  transition: width 0.3s; /* Transição suave para a largura */
+  position: absolute;
+  bottom: 0; /* Posiciona a linha na parte inferior do link */
+  left: 0; /* Alinha a linha à esquerda */
+}
+
+
+
